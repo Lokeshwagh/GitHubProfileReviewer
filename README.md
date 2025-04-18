@@ -1,7 +1,7 @@
 # 🔥 Github Review
 
 ## 🚀 Description
-Github Reviewer is the Simple website for getting the simple insights of the github user Account. It Generate the simple Report of the user and give the genuine review About the github Account of the user 😅
+Github Reviewer is the Simple fun website for getting the simple insights of the github user Account. It Generate the simple Report of the user and give the genuine review About the github Account of the user 😅
 
 ## 📸 Screenshots
 
