@@ -7,11 +7,9 @@ Github Reviewer is the Simple website for getting the simple insights of the git
 
 ### 🖥️ Homepage
 
-![Homepage](./src//assets//Readmi/home.png)
+![Homepage](./frontend//src//assets//Readmi//home.png)
 
-### 📱 Mobile View
-
-![Mobile](./src//assets//Readmi/chai.png)
+![Homepage](./frontend//src//assets//Readmi//chai.png)
 
 ## 🛠️ Technologies Used
 
