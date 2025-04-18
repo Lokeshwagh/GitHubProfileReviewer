@@ -1,0 +1,206 @@
+.img1 {
+  border: 2px solid skyblue;
+  border-radius: 50%;
+  box-shadow: 0px 0px 200px -8px #c153b8;
+  animation: floating 2s ease-in-out infinite;
+}
+.dot {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  box-shadow: 54px 44px 335px 94px #00fffc;
+}
+.Mainchai{
+  width: 100%;
+  height: 10vh;
+}
+.chai{
+  position: absolute;
+    right: 10%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    border-radius: 8px;
+    color: black;
+    background: #ccb136;
+    font-weight: 700; 
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, cyan, #8a2be2); /* cyan to blue-violet */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+  color: transparent;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 0 10px;
+  color: white;
+  text-shadow: 2px 2px rgb(116, 116, 116);
+  text-transform: uppercase;
+  cursor: pointer;
+  border: solid 2px black;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: hsl(49deg 98% 60%);
+  border-radius: 22px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  margin-top: 10px;
+  width: 150px;
+}
+
+button:active {
+  transform: scale(0.9);
+  transition: all 100ms ease;
+}
+
+button svg {
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.play {
+  transition: all 0.5s ease;
+  transition-delay: 300ms;
+  background-color: hsl(49deg 98% 60%);
+  font-size: 25px;
+  color: black;
+}
+
+button:hover svg {
+  transform: scale(3) translate(50%);
+}
+
+.now {
+  position: absolute;
+  left: 0;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  z-index: 2;
+  background-color: hsl(49deg 98% 60%);
+  font-size: 25px;
+  color: black;
+}
+
+button:hover .now {
+  transform: translateX(10px);
+  transition-delay: 300ms;
+  background-color: hsl(49deg 98% 60%);
+  font-size: 25px;
+}
+
+button:hover .play {
+  transform: translateX(200%);
+  transition-delay: 300ms;
+  background-color: hsl(49deg 98% 60%);
+  font-size: 25px;
+}
+.DataFetch{
+    border: 5px solid transparent;
+    border-image: linear-gradient(to right, red, blue) 1;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(0px, -20px);
+  }
+  75% {
+    transform: translate(-10px, -10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+/*  */
+/* Home.css */
+
+/* For smaller devices (phones) */
+@media screen and (max-width: 600px) {
+    .img1 {
+      width: 250px;
+      height: 250px;
+    }
+  
+    input[type="text"] {
+      width: 80% !important;
+    }
+  
+    h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 16px;
+      padding: 0 10px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-top: 10px;
+    }
+  
+    button {
+      width: 50%;
+      height: 50px;
+    }
+  
+    .dot {
+      display: none; /* hide animated dots on smaller screens */
+    }
+    .DataFetch{
+        width: 90%;
+
+    }
+    .button{
+        width: 300px;
+    }
+    .chai{
+      width: 50%;
+    }
+  }
+  
+  /* For tablets and small laptops */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    .img1 {
+      width: 300px;
+      height: 300px;
+    }
+  
+    input[type="text"] {
+      width: 50% !important;
+    }
+  
+    form {
+      gap: 16px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  }
+  

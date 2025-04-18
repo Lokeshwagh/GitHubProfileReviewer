@@ -1,0 +1,57 @@
+/* Center the entire loader content */
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: transparent;
+    flex-direction: column;
+  }
+  
+  /* Spinner styles */
+  .spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid rgb(213 223 255 / 48%);
+    border-top: 6px solid #c4ff00;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Image styling with XY movement */
+  .angerImg {
+    display: block;
+    width: 300px;
+    height: 300px;
+    box-shadow: 17px 33px 128px -28px #C153B8;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: floatXY 2s ease-in-out infinite;
+  }
+  
+  /* Spinner animation */
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Floating XY animation */
+  @keyframes floatXY {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    25% {
+      transform: translate(10px, -10px);
+    }
+    50% {
+      transform: translate(0px, -20px);
+    }
+    75% {
+      transform: translate(-10px, -10px);
+    }
+    100% {
+      transform: translate(0px, 0px);
+    }
+  }
+  
