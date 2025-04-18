@@ -8,7 +8,7 @@ Github Reviewer is the Simple fun website for getting the simple insights of the
 ### 🖥️ Homepage
 
 ![Homepage](./frontend//src//assets//Readmi//home.png)
-
+#### Below is Bay me Chai code in which Directly give QR For simplicity
 ![Homepage](./frontend//src//assets//Readmi//chai.png)
 
 ## 🛠️ Technologies Used
